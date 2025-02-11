@@ -32,7 +32,7 @@ const ContactForm = ({ setLoading }) => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message - 45Caliber AI",
+      subject: "You have a new message - Excelfy Technologies",
       body: emailBody,
     };
 
