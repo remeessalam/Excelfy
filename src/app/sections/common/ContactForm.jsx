@@ -130,7 +130,7 @@ const ContactForm = ({ setLoading }) => {
                     </div>
                   </div>
                 </div>
-                <div className="ccol-lg-6 col-md-6 m-b30">
+                {/* <div className="ccol-lg-6 col-md-6 m-b30">
                   <div className="sx-icon-bx-5">
                     <div className="sx-media">
                       <i className="flaticon-map-location" />
@@ -142,7 +142,7 @@ const ContactForm = ({ setLoading }) => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

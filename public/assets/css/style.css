@@ -13,7 +13,7 @@ Version: 1.0
 @import url(header-3.css);
 
 :root {
-  --primary: #332657;
+  --primary: #000000;
   --secondary: #190b3e;
   --secondary-light: #332657d7;
   --white: #fff;
@@ -57,10 +57,9 @@ body {
   grid-gap: 2rem !important;
 }
 
-.portfolio_grid .item img{
+.portfolio_grid .item img {
   aspect-ratio: 1/1;
 }
-
 
 @media only screen and (max-width: 767px) {
   .portfolio_grid {
@@ -5340,7 +5339,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 -------------------------------------*/
 
 .footer-dark.site-footer {
-  background-color: #3326578c !important;
+  background-color: #000000 !important;
 }
 
 .footer-dark .footer-top {
@@ -5386,7 +5385,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   color: var(--bg-light);
   margin: 0px 70px;
   padding: 40px;
-  background: var(--secondary-light);
+  /* background: var(--secondary-light); */
+  background: gray;
   border-radius: 5px;
 }
 .sx-f-bottom-section .sx-f-copy a {
@@ -9028,6 +9028,7 @@ New Template Css Start
 }
 
 .sx-bnr-text-masking .light h1 {
+  text-align: right;
   display: inline-table;
   color: rgba(12, 12, 12, 0);
   margin: 0px;

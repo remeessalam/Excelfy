@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import webbannerone from "../../../../assets/images/webdevelopmentbanner-1.webp";
 import webbannertwo from "../../../../assets/images/webdevelopmentbanner-2.webp";
-import appbannerone from "../../../../assets/images/appdevelopmentbanner-1.webp";
-import appbannertwo from "../../../../assets/images/appdevelopmentbanner-2.webp";
+import appbannerone from "../../../../assets/images/appdevelopmentbanner-1.jpg";
+import appbannertwo from "../../../../assets/images/appdevelopmentbanner-2.jpg";
 import { register } from "swiper/element/bundle";
 import { Link } from "react-scroll";
 register();

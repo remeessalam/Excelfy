@@ -25,7 +25,7 @@ function SectionAboutCompany() {
                     <div className="sx-ab3-img-outer">
                       <div className="sx-ab3-media">
                         <ItodoImage
-                          src="images/about/p2.webp"
+                          src="images/about/p2.jpg"
                           alt="media"
                           className="w-100 h-100 rounded"
                         />
