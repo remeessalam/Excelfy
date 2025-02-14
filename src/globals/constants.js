@@ -67,7 +67,7 @@ export const companyDetails = {
   number: "+91-9289306585",
   address: "Sector 46, Gurgaon",
   // address2: "ABC Street, City, Country",
-  email: "abc@xyz.com",
+  email: "support@excelfytechnologies.in",
   facebook: "",
   linkedin: "",
   instagram: "",

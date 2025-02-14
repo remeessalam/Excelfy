@@ -112,7 +112,10 @@ const ContactForm = ({ setLoading }) => {
                         href="#"
                         className="sx-icon-bx-title"
                       >
-                        {companyDetails.email}
+                        {/* {companyDetails.email} */}
+                        support@
+                        <br />
+                        excelfytechnologies.in
                       </Link>
                     </div>
                   </div>

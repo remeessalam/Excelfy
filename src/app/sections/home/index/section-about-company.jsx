@@ -1,3 +1,4 @@
+import { companyDetails } from "../../../../globals/constants";
 import ItodoImage from "../../../elements/itodo-img";
 
 function SectionAboutCompany() {
@@ -33,7 +34,10 @@ function SectionAboutCompany() {
                     </div>
                     <div className="sx-ab-circle-box">
                       <div className="sx-ab-circle-box-content">
-                        <span className="sx-exp">3+ Years Experience</span>
+                        <span className="sx-exp">
+                          {/* 3+ Years Experience */}
+                          Team of 130+ experts
+                        </span>
                         <div className="sx-exp-title-outer">
                           <span className="sx-exp-title-1">IT</span>
                           <span className="sx-exp-title-2">Solutions</span>
@@ -66,7 +70,7 @@ function SectionAboutCompany() {
                               Contact Phone
                             </span>
                             <span className="sx-icon-bx-title">
-                              [Your Contact Number]
+                              {companyDetails.number}
                             </span>
                           </div>
                         </div>
@@ -81,7 +85,10 @@ function SectionAboutCompany() {
                               Contact Mail
                             </span>
                             <span className="sx-icon-bx-title">
-                              [Your Contact Email]
+                              {/* {companyDetails.email} */}
+                              support@
+                              <br />
+                              excelfytechnologies.in
                             </span>
                           </div>
                         </div>
